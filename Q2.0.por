@@ -21,7 +21,7 @@ programa
 
 			//Verificando o tempo de casada se for 
 
-		se( sexo== "f" e estadoCivil== "casada" ){
+		se( sexo== "F" e estadoCivil== "casada" ){
 			escreva("Digite o tempo de casada em Anos: ")
 		}
 		leia(tempoCasada)
@@ -36,7 +36,7 @@ programa
 		escreva("\nSexo: ", sexo)
 		escreva("\nEstado Civil: ",estadoCivil)
 
-		se(sexo == "f" e estadoCivil=="casada"){
+		se(sexo == "F" e estadoCivil=="casada"){
 			escreva("\nTempo de Casada: ", tempoCasada, " Anos")
 		}
 	
