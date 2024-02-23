@@ -5,7 +5,7 @@ programa {
     inteiro quantidade, valorPagar
     real preco, desconto
 
-     escreva("Digite a fruta( Morango e Maçã ) : ")
+     escreva("Digite a fruta( Morango e MaÃ§Ã£ ) : ")
       leia(fruta)
 
       escreva("Digite a quantidade em KG : ")
@@ -31,7 +31,7 @@ programa {
       }
           }
   
-          se(fruta == "maçã"){
+          se(fruta == "maÃ§Ã£"){
             se(quantidade <= 5){
               preco = 1.80
               valorPagar = preco * quantidade
@@ -48,7 +48,7 @@ programa {
           escreva("=========== R E S U L T A D O ================")
           escreva("\nFruta escolhida: ", fruta)
           escreva("\nQuantidade: ", quantidade)
-          escreva("\nValor à Pagar: R$ ",valorPagar)
+          escreva("\nValor Ã  Pagar: R$ ",valorPagar)
 
           }
           }
