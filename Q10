@@ -6,7 +6,7 @@ programa {
 
     escreva("============= M E N U ==============")
     escreva("\ngasolina \nalcool")
-    escreva("\n\nDigite o combustível que deseja: ")
+    escreva("\n\nDigite o combustÃ­vel que deseja: ")
       leia(combustivel)
 
     escreva("\n\nDigite a quantidade de litros que deseja: ")
@@ -35,7 +35,7 @@ programa {
         valortotal = litros*(preco*desconto)
 
         escreva("\n\n=========== R E S U L T A D O ==============")
-        escreva("\n\nCombustível escolhido: ", combustivel)
+        escreva("\n\nCombustÃ­vel escolhido: ", combustivel)
         escreva("\nQuantidade de Litros: ", litros)
         escreva("\nTotal a pagar: R$ ", valortotal)
       
