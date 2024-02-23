@@ -11,7 +11,7 @@ programa {
     escreva("Digite a quantidade adquirida: ")
       leia(quantidade)
 
-    escreva("Digite o preÁo Unit·rio: ")
+    escreva("Digite o pre√ßo Unit√°rio: ")
       leia(preco)
 
       total = quantidade * preco
@@ -33,9 +33,8 @@ programa {
 
       escreva("\nProduto: ",nome)
       escreva("\nQuantidade: ", quantidade)
-      escreva("\nPreÁo: ", preco)
+      escreva("\nPre√ßo: ", preco)
       escreva("\nTotal: ",total)
-      escreva("\nDesconto: ", desconto)
       escreva("\nTotal a pagar: R$ ", final)
   }
 }
