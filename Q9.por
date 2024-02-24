@@ -22,11 +22,13 @@ programa{
       se(valorEmprestimo <= rendaMensal*10){
         escreva("Digite o número de parcelas : ")
           leia(parcelas)
+
+	//Cálculo
        
         total = valorEmprestimo / parcelas
 
       } 
-
+	//Exibindo os resultados
       escreva("\n\n============ R E S U L T A D O ============")
       escreva("\nNome: ", nome)
       escreva("\nRenda Mensal: ", rendaMensal)
@@ -38,7 +40,7 @@ programa{
         escreva("\nParcelas: Não há possibilidade de parcela")
       }
 
-
+	//Exibir ao usuário se o empréstimo foi aprovado ou não 
       se( total <= rendaMensal * 0.3){
         escreva("\nO empréstimo foi aprovado, as parcelas serão no total de R$ ", total, " Reais")
       }senao{
