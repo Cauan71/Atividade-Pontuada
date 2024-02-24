@@ -10,7 +10,7 @@ programa {
     escreva("\n3 - amarelo")
     escreva("\t\t\t\t4 - vermelho")
   
-    escreva("\n\nDigite a cor do CD que você deseja :")
+    escreva("\n\nDigite a COR do CD que vocÃª deseja :")
       leia(cd)
 
     escreva("\nDigite a quantidade de CD's que deseja: ")
