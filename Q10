@@ -1,17 +1,23 @@
 programa {
   funcao inicio() {
+
+    //Declarando variáveis
+
     cadeia combustivel
     inteiro alcool , gasolina , litros
     real preco, desconto, valortotal
 
+    //Exibindo o menu de opções
+
     escreva("============= M E N U ==============")
-    escreva("\ngasolina \nalcool")
+    escreva("\n1 - gasolina \n2 - alcool")
     escreva("\n\nDigite o combustível que deseja: ")
       leia(combustivel)
 
     escreva("\n\nDigite a quantidade de litros que deseja: ")
       leia(litros)
 
+      //Desconto de acordo com os litros 
       se(combustivel == "alcool"){
         preco = 3.79
         se(litros <=25){
@@ -33,6 +39,8 @@ programa {
 
         }
         valortotal = litros*(preco*desconto)
+
+        //Exibindo o resultado para o usuário
 
         escreva("\n\n=========== R E S U L T A D O ==============")
         escreva("\n\nCombustível escolhido: ", combustivel)
