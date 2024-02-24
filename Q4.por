@@ -6,10 +6,10 @@ programa
     real preco, desconto, quantidade, valorPagar
 
     escreva("Digite a fruta (Morango ou Maçã): ")
-    leia(fruta)
+   	 leia(fruta)
 
     escreva("Digite a quantidade em KG: ")
-    leia(quantidade)
+    	leia(quantidade)
 
     se(fruta == "morango") {
       se(quantidade <= 5) {
@@ -18,7 +18,7 @@ programa
         se(quantidade > 5 e quantidade < 8) {
           preco = 2.20
         } senao {
-          preco = 2.20  // Defina um valor padrão para preco caso não tenha sido definido em nenhum dos ramos anteriores
+          preco = 2.20  
         }
       }
     } senao se(fruta == "maçã") {
@@ -28,7 +28,7 @@ programa
         se(quantidade > 5 e quantidade < 8) {
           preco = 1.50
         } senao {
-          preco = 1.50  // Defina um valor padrão para preco caso não tenha sido definido em nenhum dos ramos anteriores
+          preco = 1.50 
         }
       }
     }
