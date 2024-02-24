@@ -1,22 +1,22 @@
 programa {
   funcao inicio() {
 
-    //Deckarando Variáveis
+    //Declarando VariÃ¡veis
     cadeia operacao
     inteiro  num1,num2, resultado
 
 
-    //Obtendo informações do usuário
-    escreva("Digite um número: ")
+    //Obtendo informaÃ§Ãµes do usuÃ¡rio
+    escreva("Digite um nÃºmero: ")
       leia(num1)
 
-    escreva("Digite outro número: ")
+    escreva("Digite outro nÃºmero: ")
       leia(num2)
 
-    escreva("Digite a operação: ")
+    escreva("Digite a operaÃ§Ã£o: ")
         leia(operacao)
 
-      //Operações
+      //OperaÃ§Ãµes
       se(operacao == "+"){
         resultado = num1+num2
       }
@@ -36,14 +36,14 @@ programa {
         }
       }
 
-      //Exibindo resultado ao usuário
+      //Exibindo resultado ao usuÃ¡rio
         escreva("\n\n======================")
         escreva(" Dados Obtidos")
         escreva("======================")
 
-        escreva("\nPrimeiro Número: ", num1)
-        escreva("\nSegundo Número: ", num2)
-        escreva("\nOperação: ", operacao)
+        escreva("\nPrimeiro NÃºmero: ", num1)
+        escreva("\nSegundo NÃºmero: ", num2)
+        escreva("\nOperaÃ§Ã£o: ", operacao)
         escreva("\nResultado: ", resultado)
 
 
