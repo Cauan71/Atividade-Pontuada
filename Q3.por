@@ -3,8 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-
+	//Declarando as variáveis
 	inteiro primeiroValor, segundoValor,c, resultado
+
+	//Obtendo dados do usuário
 
 	escreva("Digite o primeiro Número: ")
 		leia(primeiroValor)
@@ -12,11 +14,15 @@ programa
 	escreva("Digite o segundo Número: ")
 		leia(segundoValor)
 
-		se(primeiroValor==segundoValor){
-			resultado = primeiroValor+segundoValor
-		}senao{
-			resultado = primeiroValor*segundoValor
-		}
+	//Verificação dos números, e realização da operação
+
+	se(primeiroValor==segundoValor){
+		resultado = primeiroValor+segundoValor
+	}senao{
+		resultado = primeiroValor*segundoValor
+	}
+
+	//Exibindo o resultado dos números 
 
 		escreva("O resultado é: ", resultado)
 		
