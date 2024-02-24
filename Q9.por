@@ -2,11 +2,11 @@ programa{
 	
 	funcao inicio()	{
 
-    //Declarando vari·veis
+    //Declarando vari√°veis
     cadeia nome
     inteiro rendaMensal, parcelas, valorEmprestimo, total
 
-    // Obtendo dados do usu·rio 
+    // Obtendo dados do usu√°rio 
 
    
     escreva("----------------- Bem - Vindo(a) ----------------")
@@ -16,11 +16,11 @@ programa{
     escreva("Digite sua renda mensal:  ")
       leia(rendaMensal)
     
-    escreva("Digite o valor do emprÈstimo que deseja: ")
+    escreva("Digite o valor do empr√©stimo que deseja: ")
       leia(valorEmprestimo)
 
       se(valorEmprestimo <= rendaMensal*10){
-        escreva("Digite o n˙mero de parcelas : ")
+        escreva("Digite o n√∫mero de parcelas : ")
           leia(parcelas)
        
         total = valorEmprestimo / parcelas
@@ -30,19 +30,19 @@ programa{
       escreva("\n\n============ R E S U L T A D O ============")
       escreva("\nNome: ", nome)
       escreva("\nRenda Mensal: ", rendaMensal)
-      escreva("\nValor do EmprÈstimo: ", valorEmprestimo)
+      escreva("\nValor do Empr√©stimo: ", valorEmprestimo)
       
       se(valorEmprestimo <= rendaMensal*10){
         escreva("\nParcelas: ", parcelas)
       }senao{
-        escreva("\nParcelas: N„o h· possibilidade de parcela")
+        escreva("\nParcelas: N√£o h√° possibilidade de parcela")
       }
 
 
       se( total <= rendaMensal * 0.3){
-        escreva("\nO emprÈstimo foi aprovado, as parcelas ser„o no total de R$ ", total, " Reais")
+        escreva("\nO empr√©stimo foi aprovado, as parcelas ser√£o no total de R$ ", total, " Reais")
       }senao{
-        escreva("\n\nEmprÈstimo n„o foi aprovado !!")
+        escreva("\n\nEmpr√©stimo n√£o foi aprovado !!")
       }
 
       }
