@@ -28,6 +28,10 @@ programa
 
 
 		//Exibindo os dados ao usuário
+		
+		//OBS: Caso dar enter 2x, caso o sexo e estado civil for diferente de "f" e "casada"
+
+
 		escreva("\n\n=======================")
 		escreva(" Dados do Usuário ")
 		escreva("=======================")
